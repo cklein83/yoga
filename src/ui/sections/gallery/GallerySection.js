@@ -8,7 +8,8 @@ import { useEffect } from "react";
 import Image from "next/image";
 
 export default function GallerySection() {
-/*
+
+  /*
   useEffect(() => {
     const lightbox = GLightbox({
       selector: '.glightbox',
@@ -17,6 +18,7 @@ export default function GallerySection() {
     //console.log(lightbox)
   })
   */
+  
 
   return (
     <section id="gallery" class="p-10 lg:p-20 scroll-mt-20">

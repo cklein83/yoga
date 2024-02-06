@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function BlogSection() {
   return (
-    <section class="p-20 flex flex-col justify-center scroll-mt-20">
+    <section class="p-5 lg:p-20 flex flex-col justify-center scroll-mt-20">
 
-      <h1 class="max-w-2xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl mb-7 self-center">
-        Yoga <span className="text-amber-600">Blog</span>
+      <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold mb-5 self-center">
+         Yoga <span className="text-amber-600">Blog</span>
       </h1>
 
-      <div class="flex flex-row">
-        <div class="w-1/2">
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2">
           <Image
             className="w-full"
             src="/blog1.jpeg"
@@ -19,7 +19,7 @@ export default function BlogSection() {
             priority
           />
         </div>
-        <div class="w-1/2 bg-blue-200 p-10">
+        <div class="w-full lg:w-1/2 bg-blue-200 p-3 lg:p-10">
           <h2 class="max-w-2xl font-extrabold tracking-tight leading-none md:text35xl xl:text-4xl mb-7 self-center">
             Hatha Yoga
           </h2>
@@ -38,8 +38,8 @@ export default function BlogSection() {
       </div>
 
 
-      <div class="flex flex-row">
-        <div class="w-1/2 bg-green-50 p-10">
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2 bg-green-50 p-3 lg:p-10">
             <h2 class="max-w-2xl font-extrabold tracking-tight leading-none md:text35xl xl:text-4xl mb-7 self-center">
               Yoga für jeden
             </h2>
@@ -55,7 +55,7 @@ export default function BlogSection() {
               </p>
             </div>
           </div>        
-        <div class="w-1/2">
+        <div class="w-full lg:w-1/2">
           <Image
             className="w-full"
             src="/blog2.jpeg"

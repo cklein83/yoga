@@ -2,12 +2,12 @@
 export default function Imprint() {
 
   return (
-    <section class="p-20 flex flex-col items-center space-x-10 scroll-mt-20">
+    <section class="mt-5 p-10 lg:p-20 flex flex-col items-center lg:space-x-10 scroll-mt-20">
 
-      <div class="w-1/2">
-        <h1 class="max-w-2xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl mb-10">
+      <div class="w-full lg:w-1/2">
+        <h1 class="text-3xl md:text-3xl xl:text-5xl font-bold mb-5">
           Impressum
-        </h1>        
+        </h1>      
         <p class="mb-3">
           Yogacenter Obersulm
           <br/>

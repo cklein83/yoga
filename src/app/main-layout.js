@@ -15,6 +15,15 @@ export default function MainLayout({ children }) {
   //const [scrollPosition, setSrollPosition] = useState(0);
   const [showGoTop, setshowGoTop] = useState(false);
 
+  const handleVisibleButton = () => {
+    const position = window.pageYOffset;
+    //setSrollPosition(position);
+    setshowGoTop(position > 50)
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleVisibleButton);
+  }, []);
 
   const refScrollUp = useRef();
 
@@ -30,7 +39,7 @@ export default function MainLayout({ children }) {
 
       <Navigation />
 
-      <div class="mt-20">
+      <div class="mt-16 md:mt-20">
         {children}
       </div>
 
