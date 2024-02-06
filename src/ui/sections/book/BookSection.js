@@ -37,7 +37,12 @@ export default function BookSection() {
               Lust auf eine unverbindliche <span className="text-amber-600">Probestunde</span>?
             </p>
             <div class="space-y-3">
+              {/*
               <PrimaryCTA name="Jetzt buchen" href="#" timifyAccountId="61eac175bbd15a1164e697ee" />  
+              */
+              }
+              <PrimaryCTA name="Jetzt buchen" href={`https://book.timify.com/?accountId=61eac175bbd15a1164e697ee&hideCloseButton=true`} />
+              
               <SecondaryCTA name="Kontakt aufnehmen" href="mailto:info@yoga-obsersulm.de" />
             </div>
           </div>
