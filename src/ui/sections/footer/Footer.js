@@ -63,7 +63,10 @@ export default function Footer() {
               </li>
               <li class="mb-4">
                 <a href="https://goo.gl/maps/RUFDNWTiJwuEnRnF8" class="hover:underline" target="_blank">74182 Obersulm-Affaltrach</a>
-              </li>            
+              </li>   
+              <li class="mb-4">
+                <a href="https://goo.gl/maps/RUFDNWTiJwuEnRnF8" class="hover:underline" target="_blank">Eingang über die Kolpingstraße</a>
+              </li>                          
             </ul>
           </div>  
 
@@ -78,7 +81,10 @@ export default function Footer() {
               </li>
               <li class="mb-4">
                 <a href="https://maps.app.goo.gl/23wc7J4r5z8b6WWt6" class="hover:underline" target="_blank">74182 Obersulm-Affaltrach</a>
-              </li>            
+              </li> 
+              <li class="mb-4">
+                <a href="https://goo.gl/maps/RUFDNWTiJwuEnRnF8" class="hover:underline" target="_blank">Eingang über die Kolpingstraße</a>
+              </li>                           
             </ul>
           </div>  
 

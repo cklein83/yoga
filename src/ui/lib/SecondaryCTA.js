@@ -5,7 +5,7 @@ export default function SecondaryCTA({ name, href }) {
     <a href={href} class="
       inline-flex items-center justify-center w-full lg:w-1/2
       px-5 py-3 text-base font-medium text-center rounded-lg
-      text-gray-900 bg-white hover:bg-yellow-400 border border-yellow-400 focus:ring-0">
+      text-gray-900 bg-white hover:bg-yellow-500 border border-yellow-500 focus:ring-0">
       {name}
     </a>
   )

@@ -21,7 +21,7 @@ export default function AboutSection() {
         </div>
 
         <div class="w-full lg:w-1/3 px-2 lg:px-4 self-center">
-          <h1 class="max-w-2xl mb-4 font-extrabold tracking-tight leading-none text-xl md:text-3xl xl:text-4xl">
+          <h1 class="max-w-2xl mb-4 font-extrabold tracking-tight leading-none text-xl md:text-3xl xl:text-4xl text-center md:text-left">
             Professionelles <span className="text-amber-600">Yoga</span>
           </h1>
           <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">

@@ -22,7 +22,9 @@ export default function Home() {
       <YogaSection />
 
       <BookSection />
-
+{/*
+      <ContactSection />
+  */}
       <GallerySection />
 
       <ShopSection />
