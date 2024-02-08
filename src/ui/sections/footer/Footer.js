@@ -98,7 +98,7 @@ export default function Footer() {
           <a href="/" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 mb-10">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/logo.png"
+              src="/logo.webp"
               alt="Next.js Logo"
               width={180}
               height={37}

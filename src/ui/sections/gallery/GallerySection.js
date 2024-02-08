@@ -32,10 +32,10 @@ export default function GallerySection() {
       <div class="flex flex-wrap space-x-0 lg:space-x-3 space-y-2 lg:space-y-3 justify-center">
         {[...Array(24).keys()].map((n) => (
           <div className="w-1/2 lg:w-1/4 flex space-x-0 justify-center" key={n}>
-            <a href={`/gallery/pic${(n + 1).toString().padStart(2, "0")}.jpeg`} className="glightbox">
+            <a href={`/gallery/pic${(n + 1).toString().padStart(2, "0")}.webp`} className="glightbox">
               <Image
                 className="rounded-lg m-0 lg:m-3 shadow-lg text-center object-cover w-32 h-32 lg:w-72 lg:h-72"
-                src={`/gallery/pic${(n + 1).toString().padStart(2, "0")}.jpeg`}
+                src={`/gallery/pic${(n + 1).toString().padStart(2, "0")}.webp`}
                 alt="Galeriebild"
                 width={300}
                 height={400}

@@ -9,7 +9,7 @@ export default function AboutSection() {
         <div class="flex flex-col w-full lg:w-1/3 px-3 mb-5 lg:mb-0 items-center">
           <Image
             className="rounded-full text-center mb-3"
-            src="/about.jpeg"
+            src="/about.webp"
             alt="Inhaber: Michael Frisch"
             width={400}
             height={400}

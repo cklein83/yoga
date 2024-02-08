@@ -12,7 +12,7 @@ export default function BlogSection() {
         <div class="w-full lg:w-1/2">
           <Image
             className="w-full"
-            src="/blog1.jpeg"
+            src="/blog1.webp"
             alt="Yoga Saal"
             width={600}
             height={400}
@@ -58,7 +58,7 @@ export default function BlogSection() {
         <div class="w-full lg:w-1/2">
           <Image
             className="w-full"
-            src="/blog2.jpeg"
+            src="/blog2.webp"
             alt="Yoga Saal Nahaufnahme"
             width={600}
             height={400}

@@ -5,9 +5,9 @@ import Carousel from "@/ui/lib/Carousel";
 
 
 const slides = [
-  "/hero.jpeg",
-  "/hero2.jpeg",
-  "/yoga.jpeg"
+  "/hero.webp",
+  "/hero2.webp",
+  "/yoga.webp"
 ]
 
 export default function HeroSection() {
@@ -21,7 +21,7 @@ export default function HeroSection() {
 
           <Image
             className="mb-4 lg:mb-7 w-32 h-32 md:w-40 md:h-40"
-            src="/logo.png"
+            src="/logo.webp"
             alt="Next.js Logo"
             width={180}
             height={37}

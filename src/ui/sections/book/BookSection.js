@@ -25,7 +25,7 @@ export default function BookSection() {
         <div class="w-full xl:w-1/3 lg:w-1/2 px-2 lg:px-4 place-items-center">
           <Image
             className="rounded-lg text-center mb-3"
-            src="/book.jpeg"
+            src="/book.webp"
             alt="Yoga-Saal"
             width={700}
             height={400}

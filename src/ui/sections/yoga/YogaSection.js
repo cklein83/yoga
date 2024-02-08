@@ -22,7 +22,7 @@ export default function YogaSection() {
         <div class="w-full lg:w-1/3 px-2 lg:px-4 items-center">
           <Image
             className="rounded-lg text-center mb-3"
-            src="/yoga.jpeg"
+            src="/yoga.webp"
             alt="Buddha Figur"
             width={700}
             height={400}
@@ -35,7 +35,7 @@ export default function YogaSection() {
         <div class="w-full lg:w-1/3 px-2 lg:px-4">
           <Image
             className="rounded-lg text-center mb-3"
-            src="/yoga2b.jpeg"
+            src="/yoga2b.webp"
             alt="Seerose"
             width={700}
             height={400}
@@ -66,7 +66,7 @@ export default function YogaSection() {
           </p>
           <Image
             className="flex mb-10"
-            src="/hshn.png"
+            src="/hshn.webp"
             alt="Logo der Hochschule Heilbronn"
             width={300}
             height={100}

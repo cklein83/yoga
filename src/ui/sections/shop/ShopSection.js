@@ -9,7 +9,7 @@ export default function ShopSection() {
         <div class="w-full lg:w-1/2 px-3 place-items-center">
           <Image
             className="rounded-lg text-center mb-3"
-            src="/shop.jpg"
+            src="/shop.webp"
             alt="Shop"
             width={800}
             height={600}
