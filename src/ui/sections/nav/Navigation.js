@@ -41,6 +41,8 @@ export default function Navigation() {
 
   const [ open, setOpen ] = useState(false)
 
+  const [ activePage, setActivePage ] = useState("home")
+
   const pathname = usePathname()
 
   return (
@@ -85,7 +87,9 @@ export default function Navigation() {
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
 
             {nav.map(entry => {
-              const active = entry?.href == pathname
+              //const active = entry?.href == pathname || fragment === entry.id
+              const active = entry.id === activePage
+
               let href = entry?.href
               if (!href) {
                 if (pathname == "/") {
@@ -95,7 +99,7 @@ export default function Navigation() {
                 }
               }
 
-              return (<NavLink key={entry.id} name={entry.name} href={href} active={active} />)
+              return (<NavLink key={entry.id} name={entry.name} href={href} onClick={() => { setActivePage(entry.id); setOpen(false)} } active={active} />)
             })}
 
           </ul>
