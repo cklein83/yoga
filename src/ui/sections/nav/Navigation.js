@@ -105,7 +105,7 @@ export default function Navigation() {
           </ul>
 
                     
-          <HeadCTA name="Termin" href="#book" />
+          <HeadCTA name="Termin" href="/#book" />
         </div>
       </div>
     </nav>

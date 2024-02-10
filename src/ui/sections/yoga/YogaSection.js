@@ -74,6 +74,7 @@ export default function YogaSection() {
           />
         </div>
 
+        {/*
         <div class="text-center">
           <p class="max-w-2xl font-light text-gray-500 md:text-lg lg:text-xl mb-2">
             In Zusammenarbeit mit <span className="font-bold">Auszeit Alexandra Germer</span>.
@@ -82,6 +83,8 @@ export default function YogaSection() {
             <a href="https://g.co/kgs/eKHYqA" target="_blank">Hier klicken für weitere Infos.</a>
           </p>
         </div>
+        */}
+
       </div>
 
     </section>

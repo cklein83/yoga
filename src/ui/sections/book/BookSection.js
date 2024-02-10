@@ -80,7 +80,7 @@ export default function BookSection() {
             <div class="flex flex-col space-3 justify-center">
 
               <div class="flex flex-row mb-5 md:mb-0">
-                <div class="p-3 m-3 shadow-lg rounded-lg mr-3 hover:shadow-xl relative bg-white hover:bg-yellow-500 border border-yellow-500">
+                <div class="p-3 m-3 shadow-lg rounded-lg mr-3 hover:shadow-xl relative bg-white hover:bg-yellow-500 border border-yellow-500 max-h-20">
                   <a href="tel:+4915208807315" class="after:absolute after:inset-0" target="_blank">
                     <PhoneIcon clz="w-12 max-w-12 h-12 max-h-12" />
                   </a>
@@ -94,7 +94,7 @@ export default function BookSection() {
               </div>
 
               <div class="flex flex-row mb-5 md:mb-0">
-                <div class="p-3 m-3 shadow-lg rounded-lg mr-3 hover:shadow-xl relative bg-white hover:bg-yellow-500 border border-yellow-500">
+                <div class="p-3 m-3 shadow-lg rounded-lg mr-3 hover:shadow-xl relative bg-white hover:bg-yellow-500 border border-yellow-500 max-h-20">
                   <a href="https://wa.me/4915208807315" class=" after:absolute after:inset-0" target="_blank">
                     <WhatsappIcon clz="w-12 max-w-12 h-12 max-h-12" />
                   </a>
@@ -109,7 +109,7 @@ export default function BookSection() {
 
 
               <div class="flex flex-row mb-5 md:mb-0">
-                <div class="p-3 m-3 shadow-lg rounded-lg mr-3 hover:shadow-xl relative bg-white hover:bg-yellow-500 border border-yellow-500">
+                <div class="p-3 m-3 shadow-lg rounded-lg mr-3 hover:shadow-xl relative bg-white hover:bg-yellow-500 border border-yellow-500 max-h-20">
                   <a href="mailto:info@yoga-obsersulm.de" class="after:absolute after:inset-0" target="_blank">
                     <EnvelopeIcon clz="w-12 max-w-12 h-12 max-h-12" />
                   </a>
