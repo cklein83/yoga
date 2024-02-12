@@ -15,11 +15,13 @@ export default function Home() {
     <>
       <HeroSection />
 
-      <ServiceSection />
+      <div id="services">
+        <ServiceSection />
 
-      <AboutSection />
+        <AboutSection />
 
-      <StudioSection />
+        <StudioSection />
+      </div>
 
       <BookSection />
 {/*

@@ -13,6 +13,7 @@ export const nav = [
     "id": "services",
     "name": "Angebot"
   },
+  /*
   {
     "id": "about",
     "name": "Trainer"
@@ -21,6 +22,7 @@ export const nav = [
     "id": "studio",
     "name": "Studio"
   },
+  */
   {
     "id": "book",
     "name": "Kontakt"
@@ -54,7 +56,7 @@ export default function Navigation() {
   return (
     <nav class="bg-white fixed top-0 w-full py-4 shadow-lg z-50">
 
-      <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-4 mx-auto">
+      <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
         <a href="/" class="flex items-center">
           {/*
           <img src="https://www.svgrepo.com/show/499962/music.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
