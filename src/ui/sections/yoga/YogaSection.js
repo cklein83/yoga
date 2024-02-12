@@ -5,7 +5,7 @@ export default function YogaSection() {
     <section class="p-5 lg:p-20 flex flex-col justify-center scroll-mt-20">
 
       <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold mb-5 self-center">
-         Yoga <span className="text-amber-600">Blog</span>
+         Yoga <span className="text-amber-600">Info</span>
       </h1>
 
       <div class="flex flex-col lg:flex-row">
