@@ -6,7 +6,7 @@ import GallerySection from "@/ui/sections/gallery/GallerySection";
 import HeroSection from "@/ui/sections/hero/HeroSection";
 import ServiceSection from "@/ui/sections/services/ServiceSection";
 import ShopSection from "@/ui/sections/shop/ShopSection";
-import YogaSection from "@/ui/sections/yoga/YogaSection";
+import StudioSection from "@/ui/sections/studio/StudioSection";
 
 export default function Home() {
 
@@ -19,7 +19,7 @@ export default function Home() {
 
       <AboutSection />
 
-      <YogaSection />
+      <StudioSection />
 
       <BookSection />
 {/*

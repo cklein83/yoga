@@ -2,7 +2,6 @@ import { usePathname } from "next/navigation";
 import HeadCTA from "../../lib/HeadCTA";
 import NavLink from "./NavLink";
 import { useState } from "react";
-import Image from "next/image";
 
 export const nav = [
   {
@@ -19,9 +18,13 @@ export const nav = [
     "name": "Trainer"
   },  
   {
-    "id": "yoga",
-    "name": "Yoga"
-  }, 
+    "id": "studio",
+    "name": "Studio"
+  },
+  {
+    "id": "book",
+    "name": "Kontakt"
+  },    
   {
     "id": "gallery",
     "name": "Impressionen"
@@ -31,9 +34,10 @@ export const nav = [
     "name": "Shop"
   },     
   {
-    "id": "blog",
-    "name": "Blog",
-    "href": "/blog"
+    "id": "yoga",
+    "name": "Yoga",
+    "href": "/yoga",
+    "external": true
   }
 ]
 
@@ -45,10 +49,12 @@ export default function Navigation() {
 
   const pathname = usePathname()
 
+  const onHome = pathname == "/"
+
   return (
     <nav class="bg-white fixed top-0 w-full py-4 shadow-lg z-50">
 
-      <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+      <div class="flex flex-wrap items-center justify-between max-w-screen-2xl px-4 mx-auto">
         <a href="/" class="flex items-center">
           {/*
           <img src="https://www.svgrepo.com/show/499962/music.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
@@ -87,19 +93,18 @@ export default function Navigation() {
           <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
 
             {nav.map(entry => {
-              //const active = entry?.href == pathname || fragment === entry.id
-              const active = entry.id === activePage
+              const active = onHome && entry.id === activePage || entry.external && pathname == entry?.href
 
-              let href = entry?.href
-              if (!href) {
-                if (pathname == "/") {
-                  href = "#" + entry.id
-                } else {
-                  href = "/"
-                }
-              }
-
-              return (<NavLink key={entry.id} name={entry.name} href={href} onClick={() => { setActivePage(entry.id); setOpen(false)} } active={active} />)
+              return (<NavLink 
+                key={entry.id} 
+                id={entry.id} 
+                name={entry.name} 
+                href={entry?.href} 
+                external={entry.external}                
+                active={active}
+                onHome={onHome}
+                onClick={() => { setActivePage(entry.id); setOpen(false)} } 
+              />)
             })}
 
           </ul>

@@ -19,7 +19,7 @@ export default function Service(props) {
 
       <div class="px-3 lg:px-6 py-2 lg:py-4">
         <h2 class="font-bold text-xl mb-2 text-center">{title}</h2>
-        <p class="text-gray-700 text-center">
+        <p class="text-gray-700 text-left">
           {description}
         </p>
       </div>
