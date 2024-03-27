@@ -117,7 +117,7 @@ export default function BookSection() {
                 <div class="self-center">
                   <b>Email</b>
                   <div>
-                    Sende uns deine Nachricht an: <a href="mailto:info@yoga-obsersulm.de" class="hover:underline" target="_blank">info@yoga-obsersulm.de</a>
+                    Sende uns deine Nachricht an: <a href="mailto:info@yoga-obersulm.de" class="hover:underline" target="_blank">info@yoga-obersulm.de</a>
                   </div>
                 </div>
               </div>
