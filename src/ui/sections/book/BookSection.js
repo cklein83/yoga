@@ -6,6 +6,7 @@ import Script from "next/script";
 import PhoneIcon from "@/ui/lib/icons/PhoneIcon";
 import WhatsappIcon from "@/ui/lib/icons/WhatsappIcon";
 import EnvelopeIcon from "@/ui/lib/icons/EnvelopeIcon";
+import Link from "next/link";
 
 /**
  *  <script async
@@ -63,9 +64,9 @@ export default function BookSection() {
 
 
 
-      <div class="flex justify-center items-center">
+      <div class="flex flex-col justify-center items-center">
 
-        <div class="flex flex-col xl:w-2/3 md:flex-row bg-yellow-50 p-5 rounded-lg shadow-xl">
+        <div class="flex flex-col xl:w-2/3 md:flex-row bg-yellow-50 p-5 rounded-lg shadow-xl mb-7">
 
           <div class="w-full xl:w-1/2 lg:w-1/2 px-2 lg:px-4 self-center">
             <p class="text-2xl md:text-2xl xl:text-4xl">
@@ -126,6 +127,9 @@ export default function BookSection() {
           </div>
         </div>
 
+        <div>
+          Bitte beachten Sie den <Link href="/haftungsausschluss" className="underline hover:underline">Haftungsausschluss</Link>.
+        </div>
 
       </div>
 

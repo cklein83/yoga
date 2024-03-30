@@ -34,6 +34,9 @@ export default function Footer() {
               <li class="mb-4">
                 <Link href="/datenschutz" class="hover:underline">Datenschutz</Link>
               </li>
+              <li class="mb-4">
+                <Link href="/haftungsausschluss" class="hover:underline">Haftungsausschluss</Link>
+              </li>                
             </ul>
           </div>
 
