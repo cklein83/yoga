@@ -50,7 +50,7 @@ export default function Footer() {
                 <a href="tel:+4915208807315" class="hover:underline">Tel.: +49 (0)1520 8807315</a>
               </li>
               <li class="mb-4">
-                <a href="mailto:info@yoga-obsersulm.de" class="hover:underline">info@yoga-obsersulm.de</a>
+                <a href="mailto:info@yoga-obersulm.de" class="hover:underline">info@yoga-obersulm.de</a>
               </li>            
             </ul>
           </div>
