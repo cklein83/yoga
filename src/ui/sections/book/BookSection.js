@@ -127,7 +127,7 @@ export default function BookSection() {
           </div>
         </div>
 
-        <div>
+        <div class="text-center">
           Bitte beachten Sie den <Link href="/haftungsausschluss" className="underline hover:underline">Haftungsausschluss</Link>.
         </div>
 
