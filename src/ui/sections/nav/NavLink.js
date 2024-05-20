@@ -20,7 +20,7 @@ export default function NavLink({ id, name, active, href, onClick, external, onH
       
       {(!onHome || external) && (
       <Link href={theHref} 
-            class={`block py-2 px-3 
+            className={`block py-2 px-3 
                    ${active ? "text-amber-700" : "text-gray-700"} hover:text-amber-700`}>{name}</Link>
       )}
 

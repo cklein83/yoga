@@ -7,9 +7,14 @@ import { useEffect } from "react";
 
 import Image from "next/image";
 
-export default function GallerySection() {
+//import dynamic from "next/dynamic";
+//const GLightbox = dynamic(() => import("GLightbox").default, { ssr: false })
 
-  /*
+import GLightbox from 'glightbox-ssr';
+import 'glightbox/dist/css/glightbox.min.css'
+
+export default function GallerySection() {
+  
   useEffect(() => {
     const lightbox = GLightbox({
       selector: '.glightbox',
@@ -17,19 +22,17 @@ export default function GallerySection() {
     });
     //console.log(lightbox)
   })
-  */
-  
 
   return (
-    <section id="gallery" class="p-10 lg:p-20 scroll-mt-20">
+    <section id="gallery" className="p-10 lg:p-20 scroll-mt-20">
 
-      <h1 class="flex justify-center text-3xl md:text-3xl xl:text-5xl font-bold mb-5">
+      <h1 className="flex justify-center text-3xl md:text-3xl xl:text-5xl font-bold mb-5">
         Impressionen
       </h1> 
 
-      <hr class="w-48 h-1 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10" />
+      <hr className="w-48 h-1 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10" />
 
-      <div class="flex flex-wrap space-x-0 lg:space-x-3 space-y-2 lg:space-y-3 justify-center">
+      <div className="flex flex-wrap space-x-0 lg:space-x-3 space-y-2 lg:space-y-3 justify-center">
         {[...Array(24).keys()].map((n) => (
           <div className="w-1/2 lg:w-1/4 flex space-x-0 justify-center" key={n}>
             <a href={`/gallery/pic${(n + 1).toString().padStart(2, "0")}.webp`} className="glightbox">

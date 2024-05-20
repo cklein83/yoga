@@ -39,7 +39,7 @@ export default function MainLayout({ children }) {
 
       <Navigation />
 
-      <div class="mt-16 md:mt-20">
+      <div className="mt-16 md:mt-20">
         {children}
       </div>
 
