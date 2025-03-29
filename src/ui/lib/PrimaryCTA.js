@@ -1,8 +1,11 @@
 
-export default function PrimaryCTA({ name, href, timifyAccountId }) {
+export default function PrimaryCTA({ name, href, timifyAccountId, onClickOverride }) {
+
+  const onClickDefault = (e) => { if (timifyAccountId) e.preventDefault() }
+  const onClick = onClickOverride ? onClickOverride : onClickDefault;
 
   return (
-    <a href={timifyAccountId ? "" : href} onClick={(e) => { if (timifyAccountId) e.preventDefault() }} target={href.startsWith("#") ? "_self" : "_blank"} className={`${timifyAccountId ? "timify-button" : ""} 
+    <a href={timifyAccountId ? "" : href} onClick={onClick} target={href.startsWith("#") ? "_self" : "_blank"} className={`${timifyAccountId ? "timify-button" : ""} 
             inline-flex items-center justify-center w-full lg:w-1/2
             px-5 py-3 mr-3 text-base font-medium text-center text-slate-50 
             rounded-lg bg-amber-600 hover:bg-amber-700 focus:ring-0`} data-account-id={timifyAccountId}>

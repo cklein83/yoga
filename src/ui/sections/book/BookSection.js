@@ -4,6 +4,7 @@ import PhoneIcon from "@/ui/lib/icons/PhoneIcon";
 import WhatsappIcon from "@/ui/lib/icons/WhatsappIcon";
 import EnvelopeIcon from "@/ui/lib/icons/EnvelopeIcon";
 import Link from "next/link";
+import GoogleMaps from "@/ui/lib/GoogleMaps";
 
 /**
  *  <script async
@@ -61,7 +62,7 @@ export default function BookSection() {
 
 
 
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center mb-10">
 
         <div className="flex flex-col xl:w-2/3 md:flex-row bg-yellow-50 p-5 rounded-lg shadow-xl mb-7">
 
@@ -130,6 +131,32 @@ export default function BookSection() {
 
       </div>
 
+
+      <div className="
+        flex flex-col lg:flex-row 
+        justify-center items-center 
+        xl:p-10 md:p-8 p-0
+        mb-5 md:mb-10">
+        <div className="w-full xl:w-1/4 lg:w-1/4 px-2 lg:px-4 self-center">
+          <p className="text-3xl md:text-3xl xl:text-5xl font-bold mb-5">
+            So <span className="text-amber-600">findest</span> du uns.
+          </p>
+          <p className="text text-gray-500 mb-5 leading-8">
+            Edith-Stein-Straße 2
+            <br/>
+            74182 Obersulm-Affaltrach
+            <br/>
+            <b>Eingang über die Kolpingstraße</b>
+          </p>  
+        </div>
+
+        <div className="w-full xl:w-1/2 lg:w-3/4 px-2 lg:px-4 flex">
+          <div className="w-full self-center">
+            <GoogleMaps />
+          </div>
+        </div>
+
+      </div>      
 
     </section>
   )
